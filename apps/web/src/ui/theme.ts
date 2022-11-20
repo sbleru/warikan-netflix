@@ -7,7 +7,7 @@ export const theme = extendTheme({
         primary: defineStyle({
           bg: "white",
           color: "black",
-          border: '2px',
+          border: "2px",
           _hover: {
             bg: "gray.200",
           },
