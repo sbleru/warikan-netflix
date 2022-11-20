@@ -1,10 +1,8 @@
 import { Button } from "ui";
+import { Home } from "../features/Home";
 
 export default function Web() {
   return (
-    <div>
-      <h1>Web</h1>
-      <Button />
-    </div>
+    <Home />
   );
 }
