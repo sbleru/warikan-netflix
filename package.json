@@ -11,7 +11,7 @@
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "regenerate-package-lock": "rm -rf node_modules && rm package-lock.json && npm install"
+    "regenerate-package-lock": "rm -rf **/node_modules && rm package-lock.json && npm install"
   },
   "devDependencies": {
     "eslint-config-custom": "*",
