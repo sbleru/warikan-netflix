@@ -31,3 +31,8 @@ yarn-error.log*
 
 # turbo
 .turbo
+
+## Compiled JavaScript files
+**/build/
+**/*.js.map
+**/tsconfig.tsbuildinfo
