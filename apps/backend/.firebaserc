@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "fir-no-1904e"
+    "default": "fir-no-1904e",
+    "dev": "fir-no-1904e",
+    "prod": "fir-no-1904e"
   }
 }
