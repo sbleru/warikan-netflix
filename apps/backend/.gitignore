@@ -1,0 +1,13 @@
+# Compiled JavaScript files
+build/**/*.js
+build/**/*.js.map
+
+# Node.js dependency directory
+node_modules/
+
+# Logs
+*.log
+
+# emulator data
+emulator/*
+firebase-export-*

@@ -1,0 +1,40 @@
+{
+  "functions": [
+    {
+      "source": ".",
+      "codebase": "default",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**",
+        "**/*.log",
+        "emulator",
+        "tests",
+        "**/*.test.*"
+      ]
+    }
+  ],
+  "emulators": {
+    "auth": {
+      "port": 9099
+    },
+    "functions": {
+      "port": 5001
+    },
+    "firestore": {
+      "port": 8080
+    },
+    "ui": {
+      "enabled": true
+    },
+    "singleProjectMode": true
+  },
+  "hosting": {
+    "rewrites": [
+      {
+        "source": "/subscribeWarikan",
+        "function": "subscribeWarikan"
+      }
+    ]
+  }
+}
