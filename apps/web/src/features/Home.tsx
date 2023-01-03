@@ -1,6 +1,7 @@
 import { Button, Center, Heading, Image, Link, VStack } from "ui";
 
 export const Home = () => {
+  // FIXME use vercel env
   const priceId = "price_1LIR9XASQM55JB5snSyVU1Uq"; // 月額
   const url = `https://us-central1-fir-no-1904e.cloudfunctions.net/subscribeWarikan?priceId=${priceId}`;
 
