@@ -36,3 +36,6 @@ yarn-error.log*
 **/build/
 **/*.js.map
 **/tsconfig.tsbuildinfo
+
+# vscode
+.vscode
