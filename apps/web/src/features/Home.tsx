@@ -8,7 +8,6 @@ export const Home = () => {
   return (
     <Center
       minH={"100vh"}
-      backgroundColor="#282c34"
       display={"flex"}
       flexDir={"column"}
       alignItems={"center"}
