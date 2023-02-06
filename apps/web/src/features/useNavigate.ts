@@ -4,9 +4,9 @@
 import { useRouter } from "next/router";
 import { useCallback } from "react";
 import type { UrlObject } from "url";
-import { pagesPath, PagesPath } from "./$path";
+import { pagesPath, PagesPath } from "../lib/$path";
 
-export const useNextRouter = () => {
+export const useNavigate = () => {
   const nextRouter = useRouter();
 
   const push = useCallback(
