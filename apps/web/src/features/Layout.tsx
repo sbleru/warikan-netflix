@@ -7,7 +7,7 @@ export const Layout: FC<{
 }> = ({ children, header }) => {
   return (
     <Flex minHeight={"100vh"} direction={"column"}>
-      <Box as={"header"} position={"fixed"}>
+      <Box as={"header"} w={"100%"} position={"fixed"}>
         {header}
       </Box>
 
