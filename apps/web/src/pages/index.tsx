@@ -2,16 +2,18 @@ import Head from "next/head";
 import { Home } from "../features/Home";
 import { Header } from "../features/Header";
 import { Layout } from "../features/Layout";
+import { NextPage } from "next";
+import { HeadSeo } from "../features/HeadSeo";
 
-export default function Web() {
+const Page: NextPage = () => {
   return (
     <>
-      <Head>
-        <title>Warikan Netflix</title>
-      </Head>
+      <HeadSeo path="/" title="Top" />
       <Layout header={<Header />}>
         <Home />
       </Layout>
     </>
   );
-}
+};
+
+export default Page;

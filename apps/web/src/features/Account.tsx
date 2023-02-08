@@ -1,7 +1,8 @@
 import { Button, Center, Heading, Image, Link, VStack } from "ui";
 
 export const Account = () => {
-  const customerPortalUrl = "https://billing.stripe.com/p/login/14k7wf1fldWAbcc3cc"
+  const customerPortalUrl =
+    "https://billing.stripe.com/p/login/14k7wf1fldWAbcc3cc";
   return (
     <Center
       minH={"100vh"}
@@ -19,10 +20,7 @@ export const Account = () => {
           pointerEvents={"none"}
         />
         <Heading>アカウント</Heading>
-        <Link
-          isExternal
-          href={customerPortalUrl}
-        >
+        <Link isExternal href={customerPortalUrl}>
           <Button variant={"primary"}>サブスクリプションの管理</Button>
         </Link>
       </VStack>

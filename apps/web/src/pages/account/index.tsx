@@ -1,17 +1,18 @@
 import { Account } from "../../features/Account";
-import Head from "next/head";
 import { Header } from "../../features/Header";
 import { Layout } from "../../features/Layout";
+import { HeadSeo } from "../../features/HeadSeo";
+import { NextPage } from "next";
 
-export default function AccountPage() {
+const AccountPage: NextPage = () => {
   return (
     <>
-      <Head>
-        <title>Account</title>
-      </Head>
+      <HeadSeo path="/account" title="Account" noindex />
       <Layout header={<Header />}>
         <Account />
       </Layout>
     </>
   );
-}
+};
+
+export default AccountPage;
