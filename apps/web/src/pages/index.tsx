@@ -1,4 +1,3 @@
-import Head from "next/head";
 import { Home } from "../features/Home";
 import { Header } from "../features/Header";
 import { Layout } from "../features/Layout";
