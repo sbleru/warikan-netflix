@@ -51,17 +51,16 @@ export const HeadSeo: React.FC<HeadSeoProps> = (props) => {
       twitter={{
         card: "summary_large_image",
       }}
-      // FIXME: not working
-      // customLinkTags={[
-      //   {
-      //     rel: 'shortcut icon',
-      //     href: APP_ROOT_URL + '/images/warikan-w.png',
-      //   },
-      //   {
-      //     rel: 'apple-touch-icon',
-      //     href: APP_ROOT_URL + '/images/warikan-w.png',
-      //   },
-      // ]}
+      customLinkTags={[
+        {
+          rel: "shortcut icon",
+          href: APP_ROOT_URL + "/images/warikan-w.png",
+        },
+        {
+          rel: "apple-touch-icon",
+          href: APP_ROOT_URL + "/images/warikan-w.png",
+        },
+      ]}
     />
   );
 };
