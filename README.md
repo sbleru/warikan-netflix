@@ -26,6 +26,15 @@ npm run build
 
 ### Develop
 
+To setup, run the following command:
+
+```
+# Please login in your firebase project
+npm run firebase-login -w apps/backend
+# Please set your firebase project
+npm run firebase-use -w apps/backend -- <your firebase project id>
+```
+
 To develop all apps and packages, run the following command:
 
 ```
