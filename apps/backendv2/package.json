@@ -12,6 +12,7 @@
     "typescript": "^5.1.6"
   },
   "scripts": {
+    "build": "rimraf build && tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "ts-node-dev --respawn src/index.ts"
   },
