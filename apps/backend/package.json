@@ -23,6 +23,7 @@
     "logs": "firebase functions:log",
     "firebase-use": "firebase use",
     "firebase-login": "firebase logout && firebase login --no-localhost",
+    "firebase-projects-list": "firebase projects:list",
     "firebase-help": "firebase --help"
   },
   "repository": {
